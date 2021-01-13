@@ -6,8 +6,10 @@
 
 На тестирование затрачено: 0.5 часа
 
-В результате тестирования выявлен дефект:
+В результате тестирования выявлены следующие дефекты:
 * [Не распознаются карты AmericanExpress](https://github.com/Warlokk/Java2/issues/1)
+* [Не распознаются карты МИР](https://github.com/Warlokk/Java2/issues/2)
+* [Не распознаются карты Diners Club](https://github.com/Warlokk/Java2/issues/3)
 
 ## Описание процесса тестирования
 
@@ -16,9 +18,12 @@
 * [Test-Case2](https://github.com/Warlokk/Java2/blob/master/tc2.md)
 * [Test-Case3](https://github.com/Warlokk/Java2/blob/master/tc3.md)
 * [Test-Case4](https://github.com/Warlokk/Java2/blob/master/tc4.md)
+* [Test-Case5](https://github.com/Warlokk/Java2/blob/master/tc5.md)
+* [Test-Case6](https://github.com/Warlokk/Java2/blob/master/tc6.md)
+* [Test-Case7](https://github.com/Warlokk/Java2/blob/master/tc7.md)
 
 
-В качестве тестовых данных использовались данные [Генератора номеров кредитных карт](https://fakepersongenerator.com/Random1/credit_card_generator):
+В качестве тестовых данных использовались данные [Генератора номеров кредитных карт](https://ccard-generator.com):
 
 ### Visa
 * 4039502270094115, ожидаемый результат OK
@@ -34,6 +39,21 @@
 * 371156795655332, ожидаемый результат OK
 * 378443609320938, ожидаемый результат OK
 * 379603874157120, ожидаемый результат OK
+
+### МИР
+* 2200827090947693, ожидаемый результат OK
+* 2200910130959672, ожидаемый результат OK
+* 2200910130959672, ожидаемый результат OK
+
+### JCB
+* 3549894879180485, ожидаемый результат OK
+* 3559490016740237, ожидаемый результат OK
+* 3559490016740237, ожидаемый результат OK
+
+### Diners Club
+* 5519457036439754, ожидаемый результат OK
+* 5477076152962553, ожидаемый результат OK
+* 5549046924775824, ожидаемый результат OK
 
 ### Произвольные номера
 * 0000000000000000, ожидаемый результат FAIL
